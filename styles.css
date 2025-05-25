@@ -1,0 +1,20 @@
+        #chat-container {
+            height: 70vh;
+            overflow-y: auto;
+            scroll-behavior: smooth;
+        }
+        .message {
+            max-width: 80%;
+            margin: 0.5rem;
+            padding: 0.75rem;
+            border-radius: 0.5rem;
+        }
+        .user-message {
+            background-color: #3b82f6;
+            color: white;
+            margin-left: auto;
+        }
+        .bot-message {
+            background-color: #e5e7eb;
+            color: black;
+        }
