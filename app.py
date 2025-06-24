@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from multi_website_knowledge_chatbot import get_response, knowledge_base
+from chatbot import get_response, knowledge_base
 from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
